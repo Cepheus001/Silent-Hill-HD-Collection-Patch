@@ -1,0 +1,9 @@
+PPU-6a6f4056437bead3a5cb0f97e86579b8454a4d74:
+  "Fix Trophies":
+    Games:
+      "Silent Hill HD Collection":
+        BLUS30810: [ 01.02 ]
+    Author: "Cepheus"
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x0003a8a8, 0x60000000] # 0003a8a8 48 05 6b 05: bl, 0x95eac
